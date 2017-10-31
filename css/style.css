@@ -1,0 +1,140 @@
+body {
+  font-family: 'Fjalla One', sans-serif;
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+  background: #f0e7d5;
+}
+.logocontainer {
+	background: #f5e1a5;
+	width: 350px;
+	height: 100px;
+	text-align: center;
+	color: white;
+}
+.logocontainer h1 {
+  color: #151c1e;
+  margin-top: 20px;
+}
+.user {
+	width: 350px;
+	height: 100px;
+	background: #7db9d0;
+
+}
+.ray {
+  position: absolute;
+  z-index: 5;
+  margin-top: 80px;
+  margin-left: 375px;
+}
+.profilepic {
+  position: absolute;
+  z-index: 2;
+  border-radius: 200px;
+  border-color: 5px white;
+  transform: scale(0.4);
+  margin-left:-50px;
+  margin-top: 40px;
+}
+.user h1 {
+	font-size: 16pt;
+	margin-top: 0px;
+	color: white;
+  padding-top: 10px;
+  text-align: right;
+  padding-right: 10px;
+}
+.user h2 {
+	margin-top: -10px;
+  padding-top: 10px;
+	font-size: 12pt;
+	color: white;
+  text-align: right;
+  padding-right: 10px;
+}
+.ahoramimo {
+	background: #b6d3d9;
+  width: 350px;
+  height: 150px;
+  margin-top: 20px;
+}
+.ahoramimo ul li {
+  font-size: 14px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #181c1d;
+}
+.quoter {
+  width: 600px;
+  position: absolute;
+  background: #7db9d0;
+  z-index: 3;
+  margin-top: -370px;
+  margin-left: 370px;
+  height: 150px;
+}
+.terms {
+  margin-left: 370px;
+  font-size: 18pt;
+  width: 600px;
+  padding: 40px;
+  background: #f5e1a5;
+  text-align: center;
+  margin-top: -50px;
+}
+.terms h3 {
+  font-size: 10pt;
+  line-height: -50px;
+
+}
+.containerquote {
+  width: 520px;
+  margin-top: -450px;
+  margin-left: 400px;
+  position: absolute;
+  z-index: 4;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+#logo {
+  position: absolute;
+  z-index: 5;
+  margin-top: 20px;
+  margin-left: 180px;
+}
+.counter {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.posts li {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+}
+
+.footer {
+  margin-top: 400px;
+  height: 50px;
+  background: #f5e1a5;
+  text-align: center;
+  padding-top: 20px;
+}
